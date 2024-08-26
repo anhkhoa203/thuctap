@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using TienDat_DotNetCore.Data;
-using TienDat_DotNetCore.Models.ViewModels;
-using TienDat_DotNetCore.Models.Domain;
+using DaiKhoa_DotNetCore.Data;
+using DaiKhoa_DotNetCore.Models.ViewModels;
+using DaiKhoa_DotNetCore.Models.Domain;
 using Microsoft.AspNetCore.Authorization;
 
-namespace TienDat_DotNetCore.Pages.Employees
+namespace DaiKhoa_DotNetCore.Pages.Employees
 {
     [Authorize(Policy = "AdminOnly")]
     public class AddModel : PageModel

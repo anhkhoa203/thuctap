@@ -1,4 +1,4 @@
-﻿namespace TienDat_DotNetCore.Models.ViewModels
+﻿namespace DaiKhoa_DotNetCore.Models.ViewModels
 {
     public class AddEmployeeViewModel
     {

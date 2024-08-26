@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using TienDat_ApiResult.Data;
+using DaiKhoa_ApiResult.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

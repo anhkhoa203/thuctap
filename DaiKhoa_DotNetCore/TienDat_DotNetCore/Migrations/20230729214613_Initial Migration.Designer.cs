@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TienDat_DotNetCore.Data;
+using DaiKhoa_DotNetCore.Data;
 
 #nullable disable
 
-namespace TienDat_DotNetCore.Migrations
+namespace DaiKhoa_DotNetCore.Migrations
 {
     [DbContext(typeof(RazorPagesDB))]
     [Migration("20230729214613_Initial Migration")]
@@ -25,7 +25,7 @@ namespace TienDat_DotNetCore.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("TienDat_DotNetCore.Models.Domain.Employee", b =>
+            modelBuilder.Entity("DaiKhoa_DotNetCore.Models.Domain.Employee", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

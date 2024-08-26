@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "TienDat_ApiResult": {
+    "DaiKhoa_ApiResult": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

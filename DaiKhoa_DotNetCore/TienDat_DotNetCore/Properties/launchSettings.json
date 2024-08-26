@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "TienDat_DotNetCore": {
+    "DaiKhoa_DotNetCore": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

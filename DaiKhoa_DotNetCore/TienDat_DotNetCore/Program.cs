@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using TienDat_DotNetCore.Authorization;
-using TienDat_DotNetCore.Data;
+using DaiKhoa_DotNetCore.Authorization;
+using DaiKhoa_DotNetCore.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);

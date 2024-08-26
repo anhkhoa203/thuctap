@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TienDat_DotNetCore.Models.Domain;
+using DaiKhoa_DotNetCore.Models.Domain;
 
-namespace TienDat_DotNetCore.Data
+namespace DaiKhoa_DotNetCore.Data
 {
     public class RazorPagesDB : DbContext
     {

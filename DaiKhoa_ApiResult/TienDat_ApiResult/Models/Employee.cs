@@ -1,4 +1,4 @@
-﻿namespace TienDat_ApiResult.Models
+﻿namespace DaiKhoa_ApiResult.Models
 {
     public class Employee
     {

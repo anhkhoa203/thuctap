@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace TienDat_DotNetCore.Authorization
+namespace DaiKhoa_DotNetCore.Authorization
 {
     public class CongTacVienManager : IAuthorizationRequirement
     {

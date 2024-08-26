@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TienDat_ApiResult.Models;
-namespace TienDat_ApiResult.Data
+using DaiKhoa_ApiResult.Models;
+namespace DaiKhoa_ApiResult.Data
 {
     public class ApiContext : DbContext
     {

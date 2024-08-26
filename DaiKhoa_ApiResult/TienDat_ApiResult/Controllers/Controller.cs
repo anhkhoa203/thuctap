@@ -1,20 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
-using TienDat_ApiResult.Data;
+using DaiKhoa_ApiResult.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TienDat_ApiResult.Controllers
+namespace DaiKhoa_ApiResult.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TienDatApiController : ControllerBase
+    public class DaiKhoaApiController : ControllerBase
     {
         private readonly ApiContext _dbContext;
         private readonly IMemoryCache _cache;
 
-        public TienDatApiController(ApiContext dbContext, IMemoryCache cache)
+        public DaiKhoaApiController(ApiContext dbContext, IMemoryCache cache)
         {
             _dbContext = dbContext;
             _cache = cache;

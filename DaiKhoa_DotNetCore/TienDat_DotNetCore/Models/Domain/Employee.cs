@@ -1,4 +1,4 @@
-﻿namespace TienDat_DotNetCore.Models.Domain
+﻿namespace DaiKhoa_DotNetCore.Models.Domain
 {
     public class Employee
     {
